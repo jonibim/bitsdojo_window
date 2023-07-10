@@ -1,6 +1,6 @@
-name: bitsdojo_window_linux
-description: Linux implementation of the bitsdojo_window plugin.
-version: 0.1.4
+name: bitsdojo_window_windows
+description: Windows implementation of the bitsdojo_window plugin.
+version: 0.1.6
 homepage: https://www.bitsdojo.com
 repository: https://github.com/bitsdojo/bitsdojo_window
 
@@ -12,7 +12,9 @@ dependencies:
   flutter:
     sdk: flutter
   bitsdojo_window_platform_interface:
-    path: ../bitsdojo_window_platform_interface
+      url: https://github.com/jonibim/bitsdojo_window.git
+      ref: platform
+  win32: ">=3.0.0 <5.0.0"
   ffi: ^2.0.0
 
 
@@ -23,5 +25,5 @@ dev_dependencies:
 flutter:
   plugin:
     platforms:
-      linux:
+      windows:
         pluginClass: BitsdojoWindowPlugin
