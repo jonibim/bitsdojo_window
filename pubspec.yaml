@@ -22,10 +22,18 @@ dependencies:
   flutter:
     sdk: flutter
   bitsdojo_window_platform_interface:
-    path: ../bitsdojo_window_platform_interface
+    git:
+      url: https://github.com/jonibim/bitsdojo_window.git
+      ref: platform
   bitsdojo_window_windows:
-    path: ../bitsdojo_window_windows
+    git:
+      url: https://github.com/jonibim/bitsdojo_window.git
+      ref: windows
   bitsdojo_window_macos:
-    path: ../bitsdojo_window_macos
+    git:
+      url: https://github.com/jonibim/bitsdojo_window.git
+      ref: macos
   bitsdojo_window_linux:
-    path: ../bitsdojo_window_linux
+    git:
+      url: https://github.com/jonibim/bitsdojo_window.git
+      ref: linux

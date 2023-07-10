@@ -252,14 +252,11 @@ class WindowButtons extends StatelessWidget {
 </details>
 
 #
-# **Want to help? Become a sponsor**
+# ❤️ **Sponsors - friends helping this package**
 
-I am developing this package in my spare time and any help is appreciated.
-
+I am developing this package in my spare time and any help is appreciated. 
 If you want to help you can [become a sponsor](https://github.com/sponsors/bitsdojo).
 
 🙏 Thank you!
 
-## ☕️ Current sponsors:
-
- No sponsors
+Want to help? [Become a sponsor](https://github.com/sponsors/bitsdojo)
