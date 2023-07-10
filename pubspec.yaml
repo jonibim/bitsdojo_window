@@ -12,6 +12,7 @@ dependencies:
   flutter:
     sdk: flutter
   bitsdojo_window_platform_interface:
+    git:
       url: https://github.com/jonibim/bitsdojo_window.git
       ref: platform
   win32: ">=3.0.0 <5.0.0"
